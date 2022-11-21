@@ -1,0 +1,140 @@
+/* import google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+/* head part */
+.first_heading {
+  color: red;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 0rem;
+}
+
+.second_heading {
+  line-height: 4rem;
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
+}
+/* head part */
+/* testimonial part */
+.testimonial {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 2px solid white;
+  display: flex;
+  width: 40rem;
+}
+
+.profile_img {
+  margin-top: -5.5rem !important;
+  display: flex;
+  margin: auto;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.name {
+  line-height: 0rem;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.rating {
+  line-height: 1rem;
+  text-align: center;
+  color: red;
+  font-size: 2rem;
+}
+
+.comment {
+  text-align: center;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+/* prev testimonial button*/
+.left_button {
+  margin-right: 1rem;
+  margin-top: 8.5rem;
+}
+
+.left_button button {
+  color: red;
+  font-size: 1.8rem;
+  border: 1px solid red;
+  background: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+/* prev testimonial button*/
+
+/* next testimonial button*/
+.right_button {
+  margin-left: 1rem;
+  margin-top: 8.5rem;
+}
+
+.right_button button {
+  color: red;
+  font-size: 1.8rem;
+  border: 1px solid red;
+  background: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+/* testimonial part */
+
+/* add testimonial form part */
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+.form_testimonial {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  color: white;
+}
+
+#name {
+  padding: 1rem 2.5rem;
+}
+
+#add_testimonial {
+  display: flex;
+  color: red;
+  border: 1px solid red;
+  background: none;
+  margin-left: 6rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+#add_testimonial:hover {
+  background-color: red;
+  color: white;
+}
+/* add testimonial form part */
+
+/* by default inactive class hide and active class display */
+.inactive {
+  display: none;
+}
+.active {
+  display: block;
+}

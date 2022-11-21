@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div>
+      <!-- testimonial headings -->
+      <div>
+        <p class="first_heading">CLIENT</p>
+        <p class="second_heading">TESTIMONIALS</p>
+      </div>
+      <br /><br />
+      <div class="main">
+        <!-- next testimonial button -->
+        <div class="left_button"><button onclick="prev()"><</button></div>
+        <div class="testimonial" id="testimonial">
+          <!-- dynamic testimonial -->
+        </div>
+        <!-- prev testimonial button -->
+        <div class="right_button"><button onclick="next()">></button></div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <!-- add comments form -->
+    <div class="form_testimonial">
+      <form id="add_testimonial_form" method="post">
+        <label for="name">User name:</label>
+        <input type="text" name="name" id="name" required /><br /><br />
+        <label for="content">Comments</label>
+        <textarea
+          name="content"
+          id="content"
+          cols="30"
+          rows="10"
+          required
+        ></textarea
+        ><br />
+        <button id="add_testimonial">Submit</button>
+      </form>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
